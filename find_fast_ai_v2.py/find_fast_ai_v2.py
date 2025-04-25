@@ -1,7 +1,7 @@
 import streamlit as st
 import googlemaps
 import openai
-
+import request 
 # API Keys
 GOOGLE_MAPS_API_KEY = 'AIzaSyC9Le3YOKyUUnapYlk0OKSQLzmxV2hc1Uw'
 OPENAI_API_KEY = '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'
