@@ -7,8 +7,8 @@ GOOGLE_MAPS_API_KEY = 'AIzaSyC9Le3YOKyUUnapYlk0OKSQLzmxV2hc1Uw'
 OPENAI_API_KEY = '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'
 
 # Inicializar APIs
-gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
-openai.api_key = OPENAI_API_KEY
+gmaps = googlemaps.Client(key=AIzaSyC9Le3YOKyUUnapYlk0OKSQLzmxV2hc1Uw)
+openai.api_key = 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
 
 # Configuración inicial
 st.set_page_config(page_title="📍 Find Fast AI", layout="centered")
